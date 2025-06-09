@@ -37,9 +37,9 @@ struct AttributedTextEditor: NSViewRepresentable {
 
         // 3) Set your colors
         textView.drawsBackground = true
-        textView.backgroundColor = NSColor(red: 0.93,
-                                           green: 0.90,
-                                           blue: 0.97,
+        textView.backgroundColor = NSColor(red: 234.0/255.0,
+                                           green: 189.0/255.0,
+                                           blue: 254.0/255.0,
                                            alpha: 1.0)
         textView.textColor = .black
         textView.insertionPointColor = .black
@@ -63,9 +63,9 @@ struct AttributedTextEditor: NSViewRepresentable {
 
         // Re-apply styling in case of appearance changes
         textView.drawsBackground = true
-        textView.backgroundColor = NSColor(red: 0.93,
-                                           green: 0.90,
-                                           blue: 0.97,
+        textView.backgroundColor = NSColor(red: 234.0/255.0,
+                                           green: 189.0/255.0,
+                                           blue: 254.0/255.0,
                                            alpha: 1.0)
         textView.textColor = .black
 

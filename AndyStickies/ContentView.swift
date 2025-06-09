@@ -8,8 +8,11 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             // 1) Your fixed “light purple” background:
-            Color(red: 0.93, green: 0.90, blue: 0.97)
+            Color(red: 234.0/255.0,
+                   green: 189.0/255.0,
+                   blue: 254.0/255.0)
               .ignoresSafeArea()
+
 
             // 2) Your rich-text editor on top of it
             AttributedTextEditor(attributedText: $note)
