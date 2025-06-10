@@ -43,6 +43,7 @@ struct AttributedTextEditor: NSViewRepresentable {
                                            alpha: 1.0)
         textView.textColor = .black
         textView.insertionPointColor = .black
+//        textView.font = NSFont(name: "Helvetica", size: 12)
 
         // 4) Put the text view into the scroll view
         scrollView.documentView = textView
@@ -68,6 +69,7 @@ struct AttributedTextEditor: NSViewRepresentable {
                                            blue: 254.0/255.0,
                                            alpha: 1.0)
         textView.textColor = .black
+//        textView.font = NSFont(name: "Helvetica", size: 12)
 
         // **Scroll to the very top** so new text always appears there
         DispatchQueue.main.async {

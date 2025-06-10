@@ -7,6 +7,7 @@ struct StickiesMVPApp: App {
         WindowGroup("Andy Note : )") {
             ContentView()
         }
+        .defaultSize(width: 200, height: 200)
         .commands {
             CommandMenu("Format") {
                 Button("Strikethrough") {

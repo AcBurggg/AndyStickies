@@ -3,7 +3,7 @@ import SwiftUI
 import AppKit
 
 struct ContentView: View {
-    @State private var note = NSAttributedString(string: "New Note")
+    @State private var note = NSAttributedString(string: "")
 
     var body: some View {
         ZStack {
